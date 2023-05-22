@@ -1,0 +1,161 @@
+body{
+    background: #62628d;
+     background: -webkit-linear-gradient(to right, #91eace, #86A8E7, #7F7FD5);
+      background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
+  }
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  #chat-container {
+    display: flex;
+    flex-direction: column;
+    border : 0px;
+    height : 75vh;
+    overflow-y: scroll;
+    border : 10px solid white;
+    width : 100%;
+    margin-left : auto;
+    margin-right : auto;  
+    font-size: 14px;
+    background-image : url("https://createusonline.com/wp-content/uploads/2017/07/hotel-image.jpg");
+ 
+  }
+  #chat-log {
+    list-style: none;
+    border: 0px;
+    height: 100%;
+    overflow-y: scroll;
+    background-color : inherit;
+  }
+  .message-text {
+    margin-right: 10px;
+  }
+  
+  .timestamp {
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+  }
+  #send-btn{
+    padding: 10px;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+    color: rgb(217, 228, 217);
+    border: 0px;
+    border-radius: 10px;
+    margin-left : 10px;
+    font-weight : bold;
+    font-size : 16px;
+    background-color : rgba(0,0,0,0.4);
+  }
+  
+  
+  
+  [type="text"] {
+    padding-left: 20px;
+    color :black;
+  }
+  
+  
+  ::placeholder{
+    color :black;
+  }
+  
+  
+  input{
+    height : 40px;
+    width : 100%;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 10px;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    background-color: rgba(0,0,0,0.4);
+  }
+  
+  div{
+    font-family : sans-serif;
+    color : black;
+    font-weight : lighter ;
+  }
+  #input-send{
+    display : flex;
+    flex-direction : row;
+    margin : 10px;
+    position : static ;
+    bottom : 0;
+  }
+  .user-message{
+    background-color :rgba(5, 14, 65, 0.514);
+    width : 400px;
+    padding : 20px;
+    border-radius : 10px;
+    border-bottom-right-radius : 0px;
+    margin-left : auto;
+    margin-right : 15px;
+  }
+  .bot-message{
+    background-color : rgba(17, 166, 192, 0.404);
+    width : 400px;
+    padding : 10px;
+    margin-right : auto;
+    border-radius : 10px;
+    border-bottom-left-radius : 0px;
+    margin-right : 0px;
+    border : 4px solid whitesmoke;
+  }
+  
+  li{
+    display : flex;
+    flex-direction : column;
+  }
+  .username-timestamp{
+    display : flex;
+    flex-direction : row;
+    height : auto;
+  }
+  .username, .botname{
+    font-weight : bold;
+  }
+  .timestamp{
+    margin-left : auto;
+    color : black;
+  
+  }
+  .user-input{
+    padding-top : 10px;
+    color : white;
+  }
+  .bot-output{
+    padding-top : 10px;
+  }
+  .user-message-container{
+    display : flex;
+  }
+  .bot-message-container{
+    display : flex;
+    margin-left : -25px;
+  }
+  .user-icon{
+    width : 50px;
+    height : 50px;
+    margin-top : auto;
+    margin-bottom : auto;
+    border-radius :100%;
+    margin-right : 8px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image : url("https://www.5-star-luxury-hotels.de/files/hotels/2647_I_The_Trans_Resort_Bali_Seminyak/01.jpg");
+  }
+  .bot-icon{
+    width : 50px;
+    height : 50px;
+    margin-top : auto;
+    margin-bottom : auto;
+    border-radius :100%;
+    margin-right : 8px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("https://createusonline.com/wp-content/uploads/2017/07/hotel-image.jpg");
+  }
